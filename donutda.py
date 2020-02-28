@@ -431,7 +431,7 @@ eztda=EZTDA_GUI(root)
 root.geometry('850x850+10+10')
 #insert a menubar on the main window
 menubar= Menu(root)
-root.iconbitmap(r'C:\Users\ulgen\OneDrive\Masaüstü\DONUT\trefoil.ico')
+root.iconbitmap(r'C:\Users\ulgen\OneDrive\Masaüstü\DONUTDA\trefoil.ico')
 root.config(menu=menubar)
 
 #create a menu button labeled file that brings up menu
