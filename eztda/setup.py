@@ -3,12 +3,12 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setuptools.setup(name='DONUT',
+setuptools.setup(name='DONUTDA',
       version='1.0',
       description='Donut-like Object segmeNtation Utilizing Topological Data Analysis',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      url='https://github.com/ulgenklc/DONUT',
+      url='https://github.com/ulgenklc/DONUTDA',
       author='Bengier Ulgen Kilic',
       author_email='bengieru@buffalo.edu',
       license='MIT',
