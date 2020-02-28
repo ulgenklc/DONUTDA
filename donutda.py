@@ -245,7 +245,7 @@ class EZTDA_GUI:
             if direct[i]=='data_images':found=True;
             if found==True:path_name=path_name+'/' + direct[i+1]
         if len(path)>0:
-            raw_img= cv2.imread('../DONUT/data_images' + '%s'%path_name,0) 
+            raw_img= cv2.imread('../DONUTDA/data_images' + '%s'%path_name,0) 
             raw_img= rgb2gray(raw_img)
             img=np.array(raw_img, dtype=np.uint8)
             img1 = Image.fromarray(img)
