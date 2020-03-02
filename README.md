@@ -19,12 +19,15 @@ readable files in order to integrate with other image processing pipelines.
 
 ![test](https://github.com/ulgenklc/DONUTDA/blob/master/data_images/eztda_gui_abst.png)
 
-## INSTALLATION
+# INSTALLATION
 
 type `pip install donutda` in your command line
 
 # GUI
 
 Download the repository, go to the path of the file you downloaded in your command line and type `python donutda.py ` 
+
+## References
+--
 
 
