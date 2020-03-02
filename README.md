@@ -17,17 +17,27 @@ based on certain geometric parameters such as cell size, cell circularity, or co
 unwanted false ROI. The GUI also offers the user the ability to export the detected ROI to ImageJ
 readable files in order to integrate with other image processing pipelines.
 
-![test](https://github.com/ulgenklc/DONUTDA/blob/master/data_images/eztda_gui_abst.png)
+![GUI](https://github.com/ulgenklc/DONUTDA/blob/master/data_images/eztda_gui_abst.png)
 
-# INSTALLATION
+## INSTALLATION
 
 type `pip install donutda` in your command line
 
-# GUI
+## GUI
 
 Download the repository, go to the path of the file you downloaded in your command line and type `python donutda.py ` 
 
-## References
+![lookup](https://github.com/ulgenklc/DONUTDA/blob/master/data_images/lookup_roi.png)
+
+**A** Original image. Use provided preprocessing options or ImageJ. Jump
+to next panel by ’Pre-Process’. **B** Pre-Processed image. Choose the ROI type then ’Find ROIs’. **C**
+Raw cycles found. Choose either manual or automated thresholding option and hit ’Threshold’. **D**
+Final contours drawn on the original image. ’Clean’ the cycle array by choosing some geometric
+features. ’Draw’ the final contours. Additionally, you can also mark unwanted individual ROI's as false positives by 'Look Up ROIs'. 
+
+After you are done with the analysis, you can save the individual masks in .tif format to the desired directory.
+
+### References
 --
 
 
