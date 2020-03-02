@@ -17,6 +17,8 @@ based on certain geometric parameters such as cell size, cell circularity, or co
 unwanted false ROI. The GUI also offers the user the ability to export the detected ROI to ImageJ
 readable files in order to integrate with other image processing pipelines.
 
+![test](https://github.com/ulgenklc/DONUTDA/blob/master/data_images/eztda_gui_abst.png)
+
 ## INSTALLATION
 
 type `pip install donutda` in your command line
